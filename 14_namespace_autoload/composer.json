@@ -1,0 +1,13 @@
+{
+    "name": "belajar/php-namespace",
+    "description": "Belajar namespace dan autoload di PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    }
+}
