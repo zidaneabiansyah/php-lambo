@@ -1,0 +1,13 @@
+{
+    "name": "belajar/php-crud",
+    "description": "Final project CRUD blog dengan PHP, PDO, MVC, Auth",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    }
+}
